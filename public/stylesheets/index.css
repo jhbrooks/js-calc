@@ -1,15 +1,38 @@
-div {
-  width: 50px;
-  height: 50px;
+.container {
+  margin-top: 20px;
+}
+
+.row {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 240px;
-  background-color: #ddd;
-  border-radius: 4px;
+  margin-bottom: 4px;
+  width: 214px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-family: serif;
+}
+
+button, span {
+  background-color: #dadada;
+  font-size: 14px;
 }
 
 span {
-  padding-top: 15px;
-  display: block;
-  text-align: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 2px solid #dadada;
+  border-style: outset;
+  line-height: 14px;
+  text-align: right;
+  padding: 16px;
+}
+
+#clear, #screen {
+  width: 158px;
 }

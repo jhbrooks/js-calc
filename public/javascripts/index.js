@@ -1,3 +1,7 @@
-document.querySelector("div").onclick = function() {
-  alert("JS test successful!");
-};
+var buttons = document.querySelectorAll("button")
+
+for (var i = 0; i < buttons.length; i++) {
+  buttons[i].onclick = function() {
+    alert("Pressed " + this.id + "!");
+  };
+}
