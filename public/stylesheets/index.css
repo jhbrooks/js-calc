@@ -1,0 +1,15 @@
+div {
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 240px;
+  background-color: #ddd;
+  border-radius: 4px;
+}
+
+span {
+  padding-top: 15px;
+  display: block;
+  text-align: center;
+}
