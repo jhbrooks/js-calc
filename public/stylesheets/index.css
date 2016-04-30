@@ -33,10 +33,6 @@ span {
   padding: 16px;
 }
 
-#screen {
+.screen {
   width: 158px;
-}
-
-#clear {
-  width: 104px;
 }
